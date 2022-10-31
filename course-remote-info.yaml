@@ -180,8 +180,18 @@ topics:
     theory_id: 3514
   - title: String
     theory_id: 3523
+  - title: Errors in programs
+    theory_id: 3536
+  - title: What is an exception
+    theory_id: 3497
   - title: Package
     theory_id: 3621
+  - title: Hierarchy of exceptions
+    theory_id: 3570
+  - title: Introduction to logging
+    theory_id: 5538
+  - title: Debugging techniques
+    theory_id: 13775
   - title: Defining classes
     theory_id: 3618
   - title: Constructor
@@ -196,3 +206,5 @@ topics:
     theory_id: 3583
   - title: Multiple constructors
     theory_id: 3538
+  - title: The keyword super
+    theory_id: 3588
