@@ -73,7 +73,7 @@
     alice.name = "Alice";
     alice.work(); // "Alice loves working!"
 
-    peter.workTogetherWith(alice); // "Peter loves working with Alice"
+    peter.workTogetherWith(alice); // "Peter loves working with Alice!"
 }</code></pre> 
   <p>Look, now we have different outputs for the method <code class="language-java">work</code> because two different objects have different values for <code class="language-java">name</code>. First, we created <code class="language-java">peter</code> and gave him a name, then by invoking <code class="language-java">peter.work()</code> we actually saw his name in the output. We did the same with <code class="language-java">alice</code> and also saw her name in the output.</p> 
   <p>Look at <code class="language-java">workTogetherWith</code> method. The keyword <code class="language-java">this</code> allows us to access a field of the particular object and distinguish it from the same field of another object.</p> 
